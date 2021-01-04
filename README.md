@@ -1,0 +1,2 @@
+# YetAnotherSkyblockBot
+yasb
