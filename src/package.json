@@ -1,0 +1,28 @@
+{
+  "name": "yasb",
+  "version": "0.0.1",
+  "description": "A Skyblocker Mod",
+  "main": "bot/index.js",
+  "scripts": {
+    "test": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SkyBlockDev/YetAnotherSkyblockBot.git"
+  },
+  "keywords": [
+    "bot"
+  ],
+  "author": "trciked#3777 SkyBlockDev",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/SkyBlockDev/YetAnotherSkyblockBot/issues"
+  },
+  "homepage": "https://github.com/SkyBlockDev/YetAnotherSkyblockBot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "hypixel-api-reborn": "^5.0.0",
+    "mojang-api": "0.0.2",
+    "wokcommands": "^1.2.0"
+  }
+}
