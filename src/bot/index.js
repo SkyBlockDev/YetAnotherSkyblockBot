@@ -1,9 +1,4 @@
 const config = require('./files/config.json')
-const hypixel = require('hypixel-api-reborn')
-
-new hypixel.Client(config.HyApiKey);
-
-const HyApiKey = config.HyApiKey
 
 const Discord = require('discord.js')
 const WOKCommands = require('wokcommands')

@@ -5,14 +5,16 @@ const Discord = require('discord.js');
 
 module.exports = {
 	name: 'stats',
+  cooldown: '10s',
 	description: 'retrieve hypixel stats',
 	execute({message, args}) {
 
+if(!args) return message.reply("Use as the following: ya stats <skywars, bedwars, duals, hypixel> <player name>")
 
 
 		const name = args[1];
+	const arr = ['skywars', 'bedwars', 'duals', 'hypixel']
     hypixel.getPlayer(name).then(async (player) => {
-    if(!args) return message.reply('try again but this time actually mention a person')
     const game = player.stats;
     const embed = new Discord.MessageEmbed();
 		if (player.isOnline != false) {
@@ -98,7 +100,7 @@ else{
 					}
 					break;
 			default:
-			message.reply('Supported Gamemodes: Skywars, Bedwars, Duels');
+			message.reply("Use as the following: ya stats <skywars, bedwars, duals, hypixel> <player name>")
 				break;
 		}
 });

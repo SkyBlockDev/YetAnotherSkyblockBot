@@ -9,6 +9,7 @@ const fs = require('fs');
 const nbt = require('prismarine-nbt');
 module.exports = {
   aliases: [''],
+  cooldown: '10s',
   description: 'retrieve hypixel stats',
   callback: async ({ message, args }) => {
             if(!args) return message.reply('try again but this time actually mention a person')

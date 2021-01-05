@@ -1,5 +1,20 @@
 {
 "HyApiKey": "c4990af7-fcf0-4b5d-9383-720cae7e28ff",
-"DiscordToken": "Nzk1NzE3ODU5MTcwODQ0Njcz.X_NcAQ.hiDRJjLfcIt-O9kOEiyg8jRgZPg",
-"prefix": "ya "
+"DiscordToken": "Nzk1NzE3ODU5MTcwODQ0Njcz.X_NcAQ.8wen0Nt40PgfuuCRAo16hT650XA",
+"prefix": "ya ",
+"presence": {
+        "status": "online",
+        "games": [{
+                "type": "PLAYING",
+                "name": "ya help",
+                "url" : ""
+            },
+            {
+                "type": "PLAYING",
+                "name": "https://skyblockdev.github.io/YetAnotherSkyblockBot/",
+                "url" : ""
+            }
+        ],
+        "interval": 30
+    }
 }

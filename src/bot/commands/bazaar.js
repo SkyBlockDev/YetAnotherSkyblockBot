@@ -7,7 +7,8 @@ const slothpixel = require('slothpixel');
 const fs = require('fs');
 const nbt = require('prismarine-nbt');
 module.exports = {
-  aliases: [''],
+  aliases: ['bz'],
+  cooldown: '10s',
   description: 'retrieve hypixel stats',
   callback: async ({ message, args }) => {
 
@@ -18,7 +19,7 @@ let expMessage = 'Keep in mind this is experimental!\nThere are many bugs in thi
             try {
 
                 let item = args.join(' ').replace(/ /g, '_').toUpperCase();
-                if(!item) return message.reply("please select a item you want to find data on.")
+                if(!item) return message.reply("please select a item you want to find data of.")
                 const bazaarResponse = await fetch(`https://api.slothpixel.me/api/skyblock/bazaar/${item}`);
                 const bazaarData = await bazaarResponse.json();
                 const {

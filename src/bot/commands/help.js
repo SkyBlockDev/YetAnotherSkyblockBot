@@ -4,8 +4,9 @@ const hypixel = new Hypixel.Client(config.HyApiKey);
 const Discord = require('discord.js');
 module.exports = {
   aliases: [''],
+  cooldown: '2s',
   description: 'retrieve hypixel stats',
-  callback: ({ message, args }) => {
+  callback: ({ message }) => {
 
 message.reply('List of all commands: Bazaar, help, kills, gear, skills, stats')
   }
