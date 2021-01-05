@@ -21,7 +21,7 @@ module.exports = {
       }
         catch (e) {
           console.error(e);
-          embed.setDescription('There was an error fetching the UUID;');
+          embed.setDescription('There was an error Fetching data. the UUID;');
         }
       });
       } };

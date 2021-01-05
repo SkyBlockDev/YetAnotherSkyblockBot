@@ -7,6 +7,6 @@ module.exports = {
   description: 'retrieve hypixel stats',
   callback: ({ message, args }) => {
 
-
+message.reply('List of all commands: Bazaar, help, kills, gear, skills, stats')
   }
 }

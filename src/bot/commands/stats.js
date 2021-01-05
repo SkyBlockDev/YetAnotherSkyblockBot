@@ -9,12 +9,10 @@ module.exports = {
 	execute({message, args}) {
 
 
-     hypixel.SkyblockMember('trickedmc').then(async (player) => {
-message.reply(player.fairySouls + player.getEnderChest() )
-})
+
 		const name = args[1];
     hypixel.getPlayer(name).then(async (player) => {
-    if(!player) return;
+    if(!args) return message.reply('try again but this time actually mention a person')
     const game = player.stats;
     const embed = new Discord.MessageEmbed();
 		if (player.isOnline != false) {

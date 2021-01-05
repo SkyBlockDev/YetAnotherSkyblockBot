@@ -20,9 +20,12 @@
   },
   "homepage": "https://github.com/SkyBlockDev/YetAnotherSkyblockBot#readme",
   "dependencies": {
+    "cross-fetch": "^3.0.6",
     "discord.js": "^12.5.1",
     "hypixel-api-reborn": "^5.0.0",
     "mojang-api": "0.0.2",
+    "prismarine-nbt": "^1.4.0",
+    "slothpixel": "^1.2.1",
     "wokcommands": "^1.2.0"
   }
 }
